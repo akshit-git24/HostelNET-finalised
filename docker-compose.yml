@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  gateway:
+    image: nginx:alpine
+    container_name: hostelnet_gateway
+    ports:
+      - "8010:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
