@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ninja_jwt',
-    'ninja_extra',
+    'rest_framework',
+    'rest_framework_simplejwt',
     'accounts'
 ]
 

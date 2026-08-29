@@ -53,4 +53,5 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 tzdata==2025.1
 urllib3==2.5.0
+djangorestframework-simplejwt==5.4.0
 virtualenv==20.29.2
